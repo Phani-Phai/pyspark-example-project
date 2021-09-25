@@ -9,6 +9,8 @@ that is bundled with the PySpark package.
 import unittest
 
 import json
+import sys
+print('path is :',sys.path)
 
 from pyspark.sql.functions import mean
 
